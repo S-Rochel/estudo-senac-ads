@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\estudo-java-cod3r\\exercicio_fundamentos"
+		},
+		{
+			"name": "github.com/S-Rochel/estudo-senac-ads",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}
