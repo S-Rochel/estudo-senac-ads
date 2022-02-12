@@ -3,6 +3,7 @@ package heranca;
 public class EmpresaMain {
     
     public static void main(String[] args) {
+        
         System.out.println("\n |---- Colaborador ----------------");
         Colaborador colaborador = new Colaborador("Christian Cunninghan", "Infraestrutura");
         System.out.println(colaborador);

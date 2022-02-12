@@ -1,6 +1,6 @@
 package heranca;
 
-public class Colaborador {
+public abstract class Colaborador {
     
     private String nome;
     private String departamento;
@@ -9,6 +9,9 @@ public class Colaborador {
         this.nome = nome;
         this.departamento = departamento;
     }
+
+    // Método abstrato para calcular salário, ai precisa tranformar a classe em abstract.
+    public abstract double salario();
 
     public String getNome() {
         return this.nome;
